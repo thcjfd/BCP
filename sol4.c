@@ -2,7 +2,7 @@
 void main()
 {
 	char c1, c2;
-	// (1)¹ø
+	// (1)ë²ˆ
 	for (c1 = 'A'; c1 <= 'Z'; c1++) {
 		for (c2 = 'A'; c2 <= c1; c2++) {
 			printf("%c", c2);
@@ -12,7 +12,7 @@ void main()
 
 	printf("\n");
 
-	//(2)¹ø
+	//(2)Â¹Ã¸
 	for (c1 = 'Z'; c1 >= 'A'; c1--) {
 		for (c2 = 'A'; c2 <= c1; c2++) {
 			printf("%c", c2);
@@ -22,7 +22,7 @@ void main()
 
 	printf("\n");
 
-	//(3)¹ø
+	//(3)Â¹Ã¸
 	for (c1 = 'Z'; c1 >= 'A'; c1--) {
 		for (c2 = 'Z'; c2 >= c1; c2--) {
 			printf("%c", c2);
@@ -32,7 +32,7 @@ void main()
 
 	printf("\n");
 
-	//(4)¹ø
+	//(4)Â¹Ã¸
 	for (c1 = 'A'; c1 <= 'Z'; c1++) {
 		for (c2 = 'Z'; c2 >= c1; c2--) {
 			printf("%c", c2);
