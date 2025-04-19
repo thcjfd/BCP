@@ -1,9 +1,9 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int main(void)
 {
 	int x, y, z, max, mid, min;
-	printf("3°³ÀÇ Á¤¼ö ÀÔ·Â: ");
+	printf("3ê°œì˜ ì •ìˆ˜ ìž…ë ¥: ");
 	scanf("%d %d %d", &x, &y, &z);
 
 	max = (x > y) ? (x > z) ? x : z : (y > z) ? y : z;
